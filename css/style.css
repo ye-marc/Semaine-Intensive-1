@@ -1,0 +1,770 @@
+/*------------------------
+        @FONT-FACE
+--------------------------*/
+
+@font-face {
+  font-family: "montserrat-r";
+  src: url(../font/Montserrat-Regular.ttf)
+}
+
+@font-face {
+  font-family: montserrat-b;
+  src:url(../font/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: "gt-pressura";
+  src: url(../font/gt-pressura.otf)
+}
+/* ----------------------
+         HEADER
+-------------------------*/
+
+.header {
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  z-index: 10000;
+  background-color: white
+}
+
+.logo-container {
+  display: inline-block;
+  padding-top: 12px;
+  margin-left: 45px;
+  width: 188px;
+  float: left;
+}
+
+.nav {
+  margin-top: 24px;
+  width: 650px;
+  float: right;
+  margin-right: 45px
+}
+
+.--flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ListItem {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 17px;
+}
+
+.ListItemLink {
+  color: black;
+  border-bottom: 3px solid #fff;
+  transition: 0.3s ease;
+  text-decoration: none;
+  font-family: montserrat-r;
+}
+
+.ListItemLink:hover {
+  border-bottom: 3px solid #d32e2f;
+
+}
+.active{
+  color: #d32e2f;
+}
+
+/*---------------------PAGE 1 HOME PAGE----------------------*/
+
+.section-a {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.section-b {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+
+.accueil-title{
+  padding-top: 180px;
+  font-family: gt-pressura;
+  color: black;
+  font-size: 5.5vw;
+}
+
+
+.section-box-gauche{
+  text-align: left;
+  width: 50%;
+  position: relative;
+}
+
+
+
+.section-box-droite {
+  width: 50%;
+  position: relative;
+}
+
+.texte-p{
+font-family: montserrat-r;
+font-size: 18px;
+margin-top: 25px;
+line-height: 25px;
+
+}
+.logo{
+  position: absolute;
+  left: 40%;
+  top:50%;
+  transform: translate(-50%, -50%);
+}
+
+.accueilLogo {
+  width: 434px;
+  height: 434px;
+}
+
+.accueil-box {
+  padding-left: 20%;
+}
+
+.scroll-box {
+  position: absolute;
+  left: 0;
+  bottom: 0
+}
+.trait-horizontal {
+  height: 10px;
+  width: 88px;
+  background-color: #d32e2f;
+  margin-top: 30px;
+}
+
+.Scroll {
+  cursor: pointer;
+  color: black;
+  margin-left: -25px;
+  text-decoration: none;
+  font-family: montserrat
+}
+
+.traitVertical {
+  margin-top: 10px;
+  height: 64px;
+  width: 11px;
+  background-color: #d32e2f;
+}
+
+/*-------------------------*/
+
+.rouge{
+  text-align: left;
+  width: 50%;
+  position: relative;
+
+}
+
+
+.section-box-droite{
+  width: 50%;
+  position: relative;
+}
+
+.histoire-box{margin-left: 15%;
+max-width: 450px}
+.accueil-box{
+max-width: 500px}
+
+.red-box-shoes {
+  width: 94%;
+  height: 88%;
+  background-color: #d32e2f;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.red-box-shoes2 {
+  width: 94%;
+  height: 88%;
+  background-color: #d32e2f;
+  position: absolute;
+  right: left;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.red-box-shoes3 {
+  width: 94%;
+  height: 88%;
+  background-image: url(../img/croco.jpg);
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.histoireLogo{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+}
+.histoireLogo2{
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+}
+
+.l-equipe{width: 100%;
+height: 100vh;
+position: relative;}
+
+.l-equipe-box{width: 94%;
+height: 88%;
+background-color: #d32e2f;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+}
+
+.EquipeTitle{
+  font-family: gt-pressura;
+  font-size: 70px;
+  color: white;
+  text-align: center;
+  margin-top: 190px;
+}
+
+.VOIRPLUS2 {
+  display: block;
+  width: 90px;
+  padding: 13px 20px;
+  margin: 0 auto 0 auto;
+  text-transform: uppercase;
+  color: #fff;
+  border: 2px solid #fff;
+  text-align: center;
+  transition: 0.2s ease;
+  text-decoration: none;
+  font-family: montserrat-r
+  /*margin-left: 650px;
+  padding: 10px 30px;*/
+
+}
+
+
+.VOIRPLUS2:hover {
+  color:#d32e2f;
+  background-color: white
+  /*margin-left: 650px;
+  padding: 10px 30px;*/
+}
+
+footer{width: 100%;
+
+
+}
+
+.rs-box{display: flex;
+width: 30%;
+height: 43px;
+flex-direction:row;
+justify-content: space-between;
+margin-left: 50%;
+transform: translate(-50%, 50%);
+margin-bottom: 40px;
+}
+.copy-box{position: relative;
+  width: 100%
+
+}
+.copybaisse{
+margin-top: 20px;
+
+}
+
+.copybaisse2{
+margin-top: 40px;
+}
+
+.copyright{font-family: montserrat-r;
+  position: absolute;
+  color: #999;
+  right: 43px;
+  top: -25px;
+  color:
+
+
+}
+/*------------------------
+    BOUTON VOIR PLUS
+------------------------- */
+
+.Boutonplus {
+  margin-top: 50px;
+}
+
+.VOIRPLUS {
+  color: #d32e2f;
+  border: 2px solid #d32e2f;
+  padding: 10px 30px;
+  transition: 0.2s ease;
+  font-family: montserrat-r;
+  text-decoration:none
+}
+.VOIRPLUS:hover {
+  color: white;
+  background-color: #d32e2f;
+  padding: 10px 30px;
+}
+
+
+/* FIN*/
+
+
+
+ /*------------------PAGE 2 L'HISTOIRE---------------------*/
+
+.accueilLogo2{
+  width: 110%
+}
+
+/*--------------*/
+
+.rectangle {
+  display: block;
+  position: relative;
+  width: 500px;
+  border: 20px solid #d32e2f;
+  font-size: 18px;
+  font-family: montserrat;
+  line-height: 28px;
+  padding: 93px 79px 93px 239px;
+  margin: 232px 100px 0 365px;
+}
+
+.date1 {
+  position: absolute;
+  top: -70px;
+  left: 34px;
+  font-size: 230px;
+  z-index: 1;
+}
+
+.date-text{
+ font-family: montserrat-b
+}
+
+.verticalText1 {
+  position: absolute;
+  top: 126px;
+  right: -234px;
+  text-transform: uppercase;
+  transform: rotate(90deg);
+  font-family: montserrat-b;
+  font-size: 39px;
+  color: #d32e2f;
+  text-align: center;
+  line-height: 35px;
+}
+
+.imgContainer1 {
+  position: absolute;
+  top: 65px;
+  left: -285px;
+  right: 702px;
+  bottom: 82px;
+}
+
+.traitVertical2 {
+  position: absolute;
+  top:370px;
+  left: 315px;
+  height: 212px;
+  width: 20px;
+  background-color: #d32e2f;
+  z-index: 2;
+}
+
+.rectangle2 {
+  display: block;
+  position: relative;
+  width: 550px;
+  border: 20px solid #d32e2f;
+  font-size: 18px;
+  font-family: montserrat;
+  line-height: 28px;
+  padding: 92px 239px 92px 78px;
+  margin: 190px 334px 0 134px;
+}
+
+.date2 {
+  position: absolute;
+  top: -70px;
+  left: 240px;
+  font-size: 230px;
+}
+.date4 {
+  position: absolute;
+  top: -70px;
+  left: 320px;
+  font-size: 230px;
+}
+
+.verticalText2 {
+  position: absolute;
+  top: 370px;
+  left: -248px;
+  text-transform: uppercase;
+  transform: rotate(-90deg);
+  font-family: montserrat-b;
+  font-size: 70px;
+  color: #d32e2f;
+  text-align: center;
+  line-height: 35px;
+}
+
+.imgContainer2 {
+  position: absolute;
+  top: 99px;
+  left: 670px;
+  right: 260px;
+  bottom: 63px;
+}
+
+.traitVertical3 {
+  position: absolute;
+  top: 590px;
+  left: 220px;
+  height: 212px;
+  width: 20px;
+  background-color: #d32e2f;
+}
+
+.rectangle3 {
+  display: block;
+  position: relative;
+  width: 570px;
+  border: 20px solid #d32e2f;
+  font-size: 18px;
+  font-family: montserrat;
+  line-height: 28px;
+  padding: 92px 280px 380px 280px;
+  margin: 190px 100px 0 76px;
+}
+
+.adidasLogo {
+  position: absolute;
+  top: 409px;
+  /*right: 688px;*/
+  left: 196px;
+  bottom: 122px;
+}
+
+.vs {
+  position: absolute;
+  top: 527px;
+  left: 537px;
+  font-family: gt-pressura;
+  font-size: 60px;
+  z-index: 2;
+}
+
+.barreVS {
+  position: absolute;
+  top: 538px;
+  left: 525px;
+  width: 88px;
+  height: 11px;
+  background-color: #d32e2f;
+  z-index: 1;
+}
+
+.pumaLogo {
+  position: absolute;
+  top: 409px;
+  left: 657px;
+}
+
+.verticalText3 {
+  position: absolute;
+  top: 346px;
+  right: -433px;
+  text-transform: uppercase;
+  transform: rotate(90deg);
+  font-family: montserrat-b;
+  font-size: 68px;
+  color: #d32e2f;
+  text-align: center;
+  line-height: 35px;
+}
+
+.imgContainer3 {
+  position: absolute;
+  top: 650px;
+  left: 0px;
+}
+
+.imgContainer4 {
+  position: absolute;
+  top: 650px;
+  right: 0px;
+}
+
+.traitVertical4 {
+  position: absolute;
+  top: 771px;
+  left: 575px;
+  height: 212px;
+  width: 20px;
+  background-color: #d32e2f;
+}
+
+.rectangle4 {
+  display: block;
+  position: relative;
+  width: 522px;
+  border: 20px solid #d32e2f;
+  font-size: 18px;
+  font-family: montserrat;
+  line-height: 28px;
+  padding: 93px 79px 196px 239px;
+  margin: 210px 100px 163px 365px;
+}
+
+.date3 {
+  position: absolute;
+  top: -68px;
+  left: 30px;
+  font-size: 230px;
+}
+
+.verticalText4 {
+  position: absolute;
+  top: 324px;
+  left: -317px;
+  text-transform: uppercase;
+  transform: rotate(-90deg);
+  font-family: montserrat-b;
+  font-size: 50px;
+  color: #d32e2f;
+  text-align: center;
+  line-height: 35px;
+}
+
+.imgContainer5 {
+  position: absolute;
+  top: 444px;
+  left: 67px;
+}
+
+.section-c {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ultraLuxe {
+  background-color: #d32e2f;
+  width: 95%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Title {
+  color: #fff;
+  font-size: 60px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.luxe-box {
+  padding-top: 15px;
+}
+
+.acceder {
+display: block;
+max-width: 160px;
+padding: 10px 30px;
+margin: 50px auto ;
+text-transform: uppercase;
+color: #fff;
+border: 2px solid #fff;
+text-align: center;
+font-size: 18px;
+}
+
+.luxe-box{width: 100%;
+height: 35vh;
+position: relative;}
+
+.leluxeTitle{
+  font-family: gt-pressura;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  margin-top: 60px;
+  text-transform: uppercase;
+}
+
+.Boutonplus2 {
+  margin-top: 30px;
+}
+
+/*--------------------PAGE 3 L'EQUIPE------------------------*/
+.R{display: block;
+  padding-top:125px;
+  margin: 0 auto 0px auto;
+
+width: 334px;
+}
+
+.logoR {
+width: 100%;
+}
+
+.equipeTXT {
+  text-align: center;
+  font-size: 74px;
+  margin-top: 0;
+  margin-bottom: 5%;
+  font-family: gt-pressura
+}
+
+.section-d {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.scroll-box2 {
+  position: absolute;
+  left: 50%;
+  bottom: 0
+}
+
+/*----------*/
+
+.containerTeam {
+  padding-top: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.teamImg {
+  height: 80vh;
+}
+
+.laure {
+position: relative;
+text-align: center;
+}
+
+.marc {
+position: relative;
+text-align: center;
+}
+
+.clement {
+position: relative;
+text-align: center;
+}
+
+.euge {
+position: relative;
+text-align: center;
+}
+
+.bastien {
+position: relative;
+text-align: center;
+}
+
+.nametxt {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: gt-pressura;
+  font-size: 45px;
+  color: #fff;
+  width: 100%;
+}
+
+.traitHorizontal {
+  position: absolute;
+  top: 83%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 10px;
+  width: 88px;
+  background-color: #fff;
+}
+
+.double-text{
+  margin-top:10px
+}
+
+.decriptionTeam {
+  position: absolute;
+  top: 89%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Montserrat;
+  font-size: 20px;
+  color: #fff;
+  width: 100%;
+  line-height: 25px
+
+}
+
+.contact {
+  clear: both;
+  display: block;
+}
+
+.contactTxt {
+  text-align: center;
+  font-size: 72px;
+  margin : 157px auto 0;
+  width: 50%;
+  line-height: 1;
+  font-family: gt-pressura
+}
+
+.traitHorizontalRed {
+  position: relative;
+  margin-top: 33px;
+  margin-bottom: 51px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 10px;
+  width: 88px;
+  background-color: #d32e2f;
+}
+
+.adresse {
+  text-align: center;
+  font-size: 20px;
+  font-family: montserrat-r;
+  line-height: 30px;
+  margin-bottom: 40px
+}
